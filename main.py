@@ -13,7 +13,7 @@ driver.get(WEB_URL)
 bot = Bot(driver)
 started = bot.start_game()
 
-# IF game started successfully, scans text and then types that text to input box
+# If game started successfully, scans text and then types that text to input box
 if started:
     text = bot.scan_text()
     print(text)
